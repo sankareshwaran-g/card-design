@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+:root{
+    --darkblue: #0c1927;
+    --black: #363333;
+    --white: #ffffff;
+    --primary-font:'Poppins', sans-serif;
+}
+.card-design{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.container{
+    background-color: #939191;
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(58, 54, 54);
+}
+.container .image img{
+    width :220px;
+    border-radius: 120px;
+    border: 5px solid rgb(255, 255, 255);
+}
+.container .content h4{
+    text-align: center;
+    font-size: 32px;
+}
+.container .content p{
+    text-align: center;
+    /* border: 1px solid #000000; */
+}
+.container .social-links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+    /* border: 1px solid #000000; */
+}
+.container .social-links li{
+    list-style-type: none;
+    background-color: var(--black);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.container .social-links a{
+    color: var(--white);
+    font-size: 20px;
+}
+.container button{
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    background-color:  var(--black);
+}
+.container button a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.container .skills h4{
+    font-size: 18px;    
+    padding: 5px;
+}
+.container .skills ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+}
+.container .skills li{
+    list-style-type: none;
+    padding: 5px;
+    color: #ffffff;
+    background-color:  var(--black);
+    /* border: 1px solid #ffffff; */
+    border-radius: 10px;
+    
+}
